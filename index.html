@@ -1,11 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malamakai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    
+
+  <div class="top-browser-bar"></div>
+
+  <header class="site-header">
+    <div class="header-main container">
+      <div class="logo-area">
+        <a href="#">
+          <img src="assets/img/imagenescorporativas/isologo(principal).png" alt="Logo Malamakai">
+        </a>
+      </div>
+
+      <div class="search-area">
+        <form class="search-box">
+          <input type="text" placeholder="Buscar...">
+          <button type="submit" aria-label="Buscar">
+            <span>⌕</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="user-area">
+        <a href="#" class="icon-link">⌔</a>
+        <a href="#" class="account-link">AYUDA</a>
+        <a href="#" class="icon-link">👜</a>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <div class="container nav-links">
+        <a href="#">BAÑADORES</a>
+        <a href="#">BIKINIS</a>
+        <a href="#">NEOPRENOS</a>
+        <a href="#">CALZADO</a>
+        <a href="#">TOALLAS</a>
+        <a href="#">LICRA</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-slider" id="heroSlider">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80" alt="Surf en el mar" class="slide active">
+        <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1400&q=80" alt="Paisaje tropical" class="slide">
+        <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1400&q=80" alt="Playa y agua azul" class="slide">
+      </div>
+    </section>
+
+    <section class="featured-title">
+      <h2>Productos Destacados</h2>
+    </section>
+
+    <section class="featured-products container">
+      <article class="product-card">
+        <div class="product-image"></div>
+        <h3>Bikini Coral</h3>
+        <p>Diseño fresco y veraniego.</p>
+      </article>
+      
+
+      <article class="product-card">
+        <div class="product-image"></div>
+        <h3>Neopreno Wave</h3>
+        <p>Comodidad y estilo técnico.</p>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image"></div>
+        <h3>Licra Ocean</h3>
+        <p>Ligera, moderna y cómoda.</p>
+      </article>
+    </section>
+  </main>
+<section class="offers-section container">
+  <div class="offers-title">
+    <h2>Ofertas</h2>
+    <p>Descubre algunos productos seleccionados con precio especial.</p>
+  </div>
+
+  <div class="offers-grid">
+    <article class="offer-card">
+      <span class="offer-badge">-20%</span>
+      <div class="offer-image"></div>
+      <h3>Bañador Tropical</h3>
+      <p>Diseño ligero y veraniego para tus días de playa.</p>
+      <div class="offer-prices">
+        <span class="old-price">49,99€</span>
+        <span class="new-price">39,99€</span>
+      </div>
+    </article>
+
+    <article class="offer-card">
+      <span class="offer-badge">-15%</span>
+      <div class="offer-image"></div>
+      <h3>Bikini Sea Breeze</h3>
+      <p>Un estilo fresco con una línea limpia y moderna.</p>
+      <div class="offer-prices">
+        <span class="old-price">34,99€</span>
+        <span class="new-price">29,99€</span>
+      </div>
+    </article>
+
+    <article class="offer-card">
+      <span class="offer-badge">-30%</span>
+      <div class="offer-image"></div>
+      <h3>Licra Motion</h3>
+      <p>Ideal para comodidad, movimiento y un look deportivo.</p>
+      <div class="offer-prices">
+        <span class="old-price">39,99€</span>
+        <span class="new-price">27,99€</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-content">
+    <div class="footer-brand">
+      <img src="assets/img/imagenescorporativas/logotipo.png" alt="Logotipo Malamakai">
+      <p>Moda de playa con estilo limpio, fresco y actual.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Categorías</h4>
+      <a href="#">Bañadores</a>
+      <a href="#">Bikinis</a>
+      <a href="#">Neoprenos</a>
+      <a href="#">Licra</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Información</h4>
+      <a href="#">Contacto</a>
+      <a href="#">Envíos</a>
+      <a href="#">Devoluciones</a>
+      <a href="#">Aviso legal</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Síguenos</h4>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+      <a href="#">Pinterest</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Malamakai. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+  <button class="scroll-top" id="scrollTop">↑</button>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
