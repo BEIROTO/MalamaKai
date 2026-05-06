@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Malamakai</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
 
@@ -16,8 +16,8 @@
   <header class="site-header">
     <div class="header-main container">
       <div class="logo-area">
-        <a href="#">
-          <img src="assets/img/imagenescorporativas/isologo(principal).png" alt="Logo Malamakai">
+        <a href="./index.html">
+          <img src="./assets/img/imagenescorporativas/isologo(principal).png" alt="Logo Malamakai">
         </a>
       </div>
 
@@ -39,10 +39,10 @@
 
     <nav class="main-nav">
       <div class="container nav-links">
-        <a href="index.html">INICIO</a>
+        <a href="./index.html">INICIO</a>
         <a href="./banadores.html">BAÑADORES</a>
         <a href="./bikinis.html">BIKINIS</a>
-        <a href="./neoprenos.html">NEOPRENOS</a>        
+        <a href="./neoprenos.html">NEOPRENOS</a>
         <a href="./licra.html">LICRA</a>
         <a href="./contacto.html">CONTACTO</a>
         <a href="./sobrenosotros.html">SOBRE NOSOTROS</a>
@@ -50,110 +50,204 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero container">
-      <div class="hero-slider" id="heroSlider">
-        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80" alt="Surf en el mar" class="slide active">
-        <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1400&q=80" alt="Paisaje tropical" class="slide">
-        <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1400&q=80" alt="Playa y agua azul" class="slide">
+  <main class="home-page">
+    <section class="home-hero container">
+      <div class="home-hero-slider" id="heroSlider">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/08b8282352dd078f0a27c06cd2c700888325217a.jpg" alt="Colección de moda de playa tropical" class="slide active">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/82adde15a557f99d0efe81ef51cd6e85d2a95fa0.jpg" alt="Grupo con tablas de surf en la playa" class="slide">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/b46cf9ff07d03c02680c5e0d240321cf37c5e7f9.jpg" alt="Moda surf lifestyle en la playa" class="slide">
+      </div>
+
+      <div class="home-hero-overlay">
+        <span class="page-kicker">New summer chapter</span>
+        <h1>Moda de playa con alma surf y mirada editorial</h1>
+        <p>
+          Una tienda con más personalidad visual, mejor jerarquía y una imagen
+          que mezcla costa, resort y cultura surf.
+        </p>
+        <div class="hero-actions">
+          <a href="./bikinis.html" class="hero-btn primary-btn">Ver colección</a>
+          <a href="./sobrenosotros.html" class="hero-btn secondary-btn">Nuestra historia</a>
+        </div>
       </div>
     </section>
 
-<!-- Productos Destacados -->
-<section class="section-title container">
-  <h2>Productos Destacados</h2>
-</section>
+    <section class="home-categories container">
+      <article class="home-category-card">
+        <span class="mini-tag">01</span>
+        <h3>Bañadores</h3>
+        <p>Líneas limpias, tono resort y una estética más premium.</p>
+        <a href="./banadores.html">Explorar</a>
+      </article>
 
-<section class="featured-products container">
-  <article class="product-card">
-    <div class="product-image-box">
-      <img src="./assets/img/bikinis/bikini-coral.webp" alt="Bikini Coral" class="product-image">
+      <article class="home-category-card">
+        <span class="mini-tag">02</span>
+        <h3>Bikinis</h3>
+        <p>Color, verano y una parte visual más viva y editorial.</p>
+        <a href="./bikinis.html">Explorar</a>
+      </article>
+
+      <article class="home-category-card">
+        <span class="mini-tag">03</span>
+        <h3>Neoprenos</h3>
+        <p>Una línea más técnica y más conectada con la cultura surf.</p>
+        <a href="./neoprenos.html">Explorar</a>
+      </article>
+
+      <article class="home-category-card">
+        <span class="mini-tag">04</span>
+        <h3>Licra</h3>
+        <p>Piezas ligeras y funcionales con imagen fresca y actual.</p>
+        <a href="./licra.html">Explorar</a>
+      </article>
+    </section>
+
+    <section class="section-title container">
+      <h2>Productos destacados</h2>
+      <p>Una selección principal para presentar lo mejor de la tienda desde la home.</p>
+    </section>
+
+    <section class="home-featured-grid container">
+      <article class="home-featured-card featured-main">
+        <div class="home-featured-image">
+          <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/43ba0a996e99d18de6adbc2181c708869b74b369.jpg" alt="Bañador blanco premium">
+        </div>
+        <div class="home-featured-info">
+          <span class="card-note">Destacado</span>
+          <h3>Resort White</h3>
+          <div class="product-price">
+            <span class="current-price">54,99€</span>
+          </div>
+          <p>Una pieza de bañador con imagen limpia, luminosa y muy marca.</p>
+        </div>
+      </article>
+
+      <article class="home-featured-card">
+        <div class="home-featured-image">
+          <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/6ecc22d49d6f839f73b0973eac4a208ecf1acef5.jpg" alt="Bikini rosa en la playa">
+        </div>
+        <div class="home-featured-info">
+          <h3>Malibu Pink</h3>
+          <div class="product-price">
+            <span class="current-price">38,99€</span>
+          </div>
+          <p>Color fuerte y una presencia perfecta para la temporada.</p>
+        </div>
+      </article>
+
+      <article class="home-featured-card">
+        <div class="home-featured-image">
+          <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/69ef26742387c864f19a453a57dcbab06131abee.jpg" alt="Surf sobre una ola">
+        </div>
+        <div class="home-featured-info">
+          <h3>Wave Performance</h3>
+          <div class="product-price">
+            <span class="current-price">89,99€</span>
+          </div>
+          <p>Una inspiración técnica para conectar la tienda con el surf.</p>
+        </div>
+      </article>
+      <article class="home-featured-card">
+  <div class="home-featured-image">
+    <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/fd90f9883d551753d0f07f2053c4c8116d0a328a.jpg" alt="Bañador blanco en la playa">
+  </div>
+  <div class="home-featured-info">
+    <h3>Ivory Coast</h3>
+    <div class="product-price">
+      <span class="current-price">42,99€</span>
     </div>
-    <div class="product-info">
-      <h3>Bikini Coral</h3>
-      <div class="product-price">
-        <span class="current-price">34,99€</span>
+    <p>Un bañador limpio, fresco y elegante para equilibrar mejor la home.</p>
+  </div>
+</article>
+<article class="home-featured-card">
+  <div class="home-featured-image">
+    <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/b1edadb950d1c22ef169b824644482f225f9422e.jpg" alt="Bañador negro de lujo en la playa">
+  </div>
+  <div class="home-featured-info">
+    <h3>High Tide Black</h3>
+    <div class="product-price">
+      <span class="current-price">47,99€</span>
+    </div>
+    <p>Un bañador elegante, potente y más premium para darle fuerza visual al bloque.</p>
+  </div>
+</article>
+
+    </section>
+
+    <section class="home-editorial container">
+      <div class="home-editorial-text">
+        <span class="page-kicker">Editorial mood</span>
+        <h2>Más que una tienda, una atmósfera</h2>
+        <p>
+          Malamakai puede sentirse más premium si cada sección combina producto,
+          imagen aspiracional y una composición más viva.
+        </p>
+        <a href="./sobrenosotros.html" class="editorial-btn">Ver universo Malamakai</a>
       </div>
-      <p>Diseño fresco y veraniego.</p>
-    </div>
-  </article>
 
-  <article class="product-card">
-    <div class="product-image-box">
-      <img src="./assets/img/neoprenos/neopreno-wave.jpg" alt="Neopreno Wave" class="product-image">
-    </div>
-    <div class="product-info">
-      <h3>Neopreno Wave</h3>
-      <div class="product-price">
-        <span class="current-price">89,99€</span>
+      <div class="home-editorial-gallery">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/08b8282352dd078f0a27c06cd2c700888325217a.jpg" alt="Editorial tropical swimwear" class="gallery-main">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/2587f0582a7ddfa3acb775a13ed830ba45f45812.jpg" alt="Surf lifestyle en blanco y negro" class="gallery-side">
       </div>
-      <p>Comodidad y estilo técnico.</p>
-    </div>
-  </article>
+    </section>
 
-  <article class="product-card">
-    <div class="product-image-box">
-      <img src="./assets/img/neoprenos/licra-ocean.jpg" alt="Licra Ocean" class="product-image">
-    </div>
-    <div class="product-info">
-      <h3>Licra Ocean</h3>
-      <div class="product-price">
-        <span class="current-price">29,99€</span>
-      </div>
-      <p>Ligera, moderna y cómoda.</p>
-    </div>
-  </article>
-</section>
-
-
-<section class="offers-section container">
-  <div class="section-title">
-    <h2>Ofertas</h2>
-    <p>Descubre algunos productos seleccionados con precio especial.</p>
+   <section class="offers-showcase container">
+  <div class="offers-heading">
+    <span class="page-kicker">Special prices</span>
+    <h2>Ofertas que sí llaman la atención</h2>
+    <p>
+      Una selección con más estilo visual, mejor composición y un aire más premium
+      para que esta parte de la home no se vea simple ni repetitiva.
+    </p>
   </div>
 
-  <div class="offers-grid">
-    <article class="offer-card">
-      <span class="offer-badge">-20%</span>
-      <div class="offer-image-box">
-        <img src="./assets/img/bañadores/bañador-tropical.webp" alt="Bañador Tropical" class="offer-image">
+  <div class="offers-showcase-grid">
+    <article class="offer-featured-card">
+      <div class="offer-featured-image">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/124fc385c0e35699074a9866e5a1e9af567f36d5.jpg" alt="Bañador negro en campaña resort">
       </div>
-      <div class="offer-info">
-        <h3>Bañador Tropical</h3>
-        <p>Diseño ligero y veraniego para tus días de playa.</p>
-        <div class="offer-prices">
-          <span class="old-price">49,99€</span>
-          <span class="new-price">39,99€</span>
+      <div class="offer-featured-content">
+        <span class="offer-chip">-25%</span>
+        <span class="offer-collection">Resort selection</span>
+        <h3>Black Palm One Piece</h3>
+        <p>
+          Un bañador más elegante y potente para que la sección de ofertas
+          también tenga imagen de marca.
+        </p>
+        <div class="offer-price-line">
+          <span class="old-price">66,99€</span>
+          <span class="new-price">49,99€</span>
+        </div>
+        <a href="./banadores.html" class="offer-link-btn">Ver oferta</a>
+      </div>
+    </article>
+
+    <article class="offer-side-card">
+      <div class="offer-side-image">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/73f52357688abfb7b8de7f1a16cbd632f20f0bbe.jpg" alt="Bikini tropical naranja en la playa">
+      </div>
+      <div class="offer-side-content">
+        <span class="offer-chip soft-chip">-20%</span>
+        <h3>Sunset Tropic</h3>
+        <p>Más color, más verano y un punto visual mucho más fresco.</p>
+        <div class="offer-price-line">
+          <span class="old-price">44,99€</span>
+          <span class="new-price">35,99€</span>
         </div>
       </div>
     </article>
 
-    <article class="offer-card">
-      <span class="offer-badge">-15%</span>
-      <div class="offer-image-box">
-        <img src="./assets/img/bikinis/Bikini-SeaBreeze .avif" alt="Bikini Sea Breeze" class="offer-image">
+    <article class="offer-side-card dark-side-card">
+      <div class="offer-side-image">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/3debe99ab7a48ca482ccdef75f6f2a4c77e2cac2.jpg" alt="Editorial de bañador negro en la playa">
       </div>
-      <div class="offer-info">
-        <h3>Bikini Sea Breeze</h3>
-        <p>Un estilo fresco con una línea limpia y moderna.</p>
-        <div class="offer-prices">
-          <span class="old-price">34,99€</span>
-          <span class="new-price">29,99€</span>
-        </div>
-      </div>
-    </article>
-
-    <article class="offer-card">
-      <span class="offer-badge">-30%</span>
-      <div class="offer-image-box">
-        <img src="./assets/img/bikinis/Licra-Motion .jpeg" alt="Licra Motion" class="offer-image">
-      </div>
-      <div class="offer-info">
-        <h3>Licra Motion</h3>
-        <p>Ideal para comodidad, movimiento y un look deportivo.</p>
-        <div class="offer-prices">
-          <span class="old-price">39,99€</span>
-          <span class="new-price">27,99€</span>
+      <div class="offer-side-content">
+        <span class="offer-chip">-30%</span>
+        <h3>Midnight Coast</h3>
+        <p>Una oferta más editorial para dar contraste y más personalidad.</p>
+        <div class="offer-price-line">
+          <span class="old-price">59,99€</span>
+          <span class="new-price">41,99€</span>
         </div>
       </div>
     </article>
@@ -161,45 +255,44 @@
 </section>
 
 
-<footer class="site-footer">
-  <div class="container footer-content">
-    <div class="footer-brand">
-      <img src="./assets/img/imagenescorporativas/logotipo.png" alt="Logotipo Malamakai">
-      <p>Moda de playa con estilo limpio, fresco y actual.</p>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="./assets/img/imagenescorporativas/logotipo.png" alt="Logotipo Malamakai">
+        <p>Moda de playa con estilo limpio, fresco y actual.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Categorías</h4>
+        <a href="./banadores.html">Bañadores</a>
+        <a href="./bikinis.html">Bikinis</a>
+        <a href="./neoprenos.html">Neoprenos</a>
+        <a href="./licra.html">Licra</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>Información</h4>
+        <a href="./contacto.html">Contacto</a>
+        <a href="#">Envíos</a>
+        <a href="#">Devoluciones</a>
+        <a href="#">Aviso legal</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>Síguenos</h4>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">Pinterest</a>
+        <a href="#">YouTube</a>
+      </div>
     </div>
 
-    <div class="footer-links">
-      <h4>Categorías</h4>
-      <a href="#">Bañadores</a>
-      <a href="#">Bikinis</a>
-      <a href="#">Neoprenos</a>
-      <a href="#">Licra</a>
+    <div class="footer-bottom">
+      <p>© 2026 Malamakai. Todos los derechos reservados.</p>
     </div>
-
-    <div class="footer-links">
-      <h4>Información</h4>
-      <a href="#">Contacto</a>
-      <a href="#">Envíos</a>
-      <a href="#">Devoluciones</a>
-      <a href="#">Aviso legal</a>
-    </div>
-
-    <div class="footer-links">
-      <h4>Síguenos</h4>
-      <a href="#">Instagram</a>
-      <a href="#">TikTok</a>
-      <a href="#">Pinterest</a>
-      <a href="#">YouTube</a>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 Malamakai. Todos los derechos reservados.</p>
-  </div>
-</footer>
+  </footer>
 
   <button class="scroll-top" id="scrollTop">↑</button>
-
-  <script src="assets/js/main.js"></script>
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>

@@ -4,32 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bañadores | Malamakai</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-
-
-  <div class="top-browser-bar"></div>
 
   <header class="site-header">
     <div class="header-main container">
       <div class="logo-area">
-        <a href="index.html">
-          <img src="assets/img/imagenescorporativas/isologo(principal).png" alt="Logo Malamakai">
+        <a href="./index.html">
+          <img src="./assets/img/imagenescorporativas/isologo(principal).png" alt="Logo Malamakai">
         </a>
       </div>
 
       <div class="search-area">
         <form class="search-box">
           <input type="text" placeholder="Buscar bañadores...">
-          <button type="submit" aria-label="Buscar">
-            <span>⌕</span>
-          </button>
+          <button type="submit" aria-label="Buscar">⌕</button>
         </form>
       </div>
 
@@ -43,7 +36,7 @@
     <nav class="main-nav">
       <div class="container nav-links">
         <a href="./index.html">INICIO</a>
-        <a href="banadores.html">BAÑADORES</a>
+        <a href="./banadores.html" class="active-link">BAÑADORES</a>
         <a href="./bikinis.html">BIKINIS</a>
         <a href="./neoprenos.html">NEOPRENOS</a>
         <a href="./licra.html">LICRA</a>
@@ -53,130 +46,168 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero container">
-      <div class="hero-slider category-hero">
+  <main class="banadores-page">
+    <section class="banadores-hero container">
+      <div class="banadores-hero-copy">
+        <span class="page-kicker sea-kicker">Resort swim edit</span>
+        <h1>Bañadores con un rollo más elegante y playero</h1>
+        <p>
+          Una categoría pensada para verse más premium: siluetas limpias, aire resort
+          y una composición visual distinta a la de bikinis.
+        </p>
+
+        <div class="banadores-tags">
+          <span>One piece</span>
+          <span>Resort style</span>
+          <span>Desde 39,99€</span>
+        </div>
+      </div>
+
+      <div class="banadores-hero-media">
         <img
-          src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/7608d7be1a835baff7eb57e72d9727d5b1c54cdc.jpg"
-          alt="Mujeres con bañadores caminando por la playa"
-          class="category-hero-image"
+          src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/43ba0a996e99d18de6adbc2181c708869b74b369.jpg"
+          alt="Bañador blanco premium en entorno resort"
         >
       </div>
     </section>
 
-   <section class="section-title container">
-  <h2>Bañadores</h2>
-  <p>Descubre una selección con estilo veraniego, cortes limpios y una estética de playa más premium.</p>
-</section>
+    <section class="banadores-intro-cards container">
+      <article class="intro-card intro-card-dark">
+        <span class="intro-label">Mood</span>
+        <h3>Elegancia costera</h3>
+        <p>Piezas con una línea mucho más refinada para una categoría con más presencia.</p>
+      </article>
 
-<section class="featured-products container">
-  <article class="product-card">
-    <div class="product-image-box">
-      <img
-        src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/c016a117818eb5f1b691bd4b69e913c60c29cd11.jpg"
-        alt="Bañador de una pieza azul verdoso"
-        class="product-image"
-      >
-    </div>
-    <div class="product-info">
-      <h3>Blue Wrap</h3>
-      <div class="product-price">
-        <span class="current-price">49,99€</span>
+      <article class="intro-card">
+        <span class="intro-label">Colección</span>
+        <h3>Diseños de una pieza</h3>
+        <p>Modelos pensados para dar imagen de marca y reforzar un look más premium.</p>
+      </article>
+
+      <article class="intro-card">
+        <span class="intro-label">Visual</span>
+        <h3>Más editorial</h3>
+        <p>Fotos más limpias, bloques más cuidados y una composición menos repetitiva.</p>
+      </article>
+    </section>
+
+    <section class="section-title container">
+      <h2>Colección de bañadores</h2>
+      <p>Selección principal con precio visible y una estética más resort que deportiva.</p>
+    </section>
+
+    <section class="banadores-grid container">
+      <article class="banador-card featured-large">
+        <div class="banador-image">
+          <img
+            src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/68a62625b5f56172742e0f04a76bd12a5799dc31.jpg"
+            alt="Bañador negro de lujo en resort"
+          >
+        </div>
+        <div class="banador-info">
+          <span class="card-note">Best seller</span>
+          <h3>Noir Escape</h3>
+          <div class="product-price">
+            <span class="current-price">59,99€</span>
+          </div>
+          <p>Un bañador sobrio, elegante y con un aire premium muy marcado.</p>
+        </div>
+      </article>
+
+      <article class="banador-card">
+        <div class="banador-image">
+          <img
+            src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/bd8b62c48eba314a379f6e0c0da2c9b7a9869b4f.jpg"
+            alt="Bañador beige en la playa"
+          >
+        </div>
+        <div class="banador-info">
+          <h3>Paloma Sand</h3>
+          <div class="product-price">
+            <span class="current-price">49,99€</span>
+          </div>
+          <p>Tonos arena y una estética limpia para una línea más natural.</p>
+        </div>
+      </article>
+
+      <article class="banador-card">
+        <div class="banador-image">
+          <img
+            src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/22aa9e8c3ef1d6cec0769000aa7011be22cfcdf3.jpg"
+            alt="Bañador negro junto a piscina"
+          >
+        </div>
+        <div class="banador-info">
+          <h3>Midnight Pool</h3>
+          <div class="product-price">
+            <span class="current-price">54,99€</span>
+          </div>
+          <p>Minimalista, fuerte y muy enfocado a imagen de marca.</p>
+        </div>
+      </article>
+
+      <article class="banador-card">
+        <div class="banador-image">
+          <img
+            src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/eb2cf3c6e7cf6f1ed10616d0760f534292f1679f.jpg"
+            alt="Bañador negro sobre barco"
+          >
+        </div>
+        <div class="banador-info">
+          <h3>Boatline Black</h3>
+          <div class="product-price">
+            <span class="current-price">57,99€</span>
+          </div>
+          <p>Una pieza más editorial con una fotografía muy potente.</p>
+        </div>
+      </article>
+
+      <article class="banador-card">
+        <div class="banador-image">
+          <img
+            src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/f014d12444792b136db3236c444c37dfe08dfbd0.jpg"
+            alt="Bañador multicolor en resort"
+          >
+        </div>
+        <div class="banador-info">
+          <h3>Resort Glow</h3>
+          <div class="product-price">
+            <span class="current-price">52,99€</span>
+          </div>
+          <p>Más color y más vibración para romper la parte más sobria.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="banadores-editorial container">
+      <div class="banadores-editorial-text">
+        <span class="page-kicker sea-kicker">Editorial focus</span>
+        <h2>Swimwear con actitud resort</h2>
+        <p>
+          Esta parte de la categoría añade una sensación más aspiracional y visual,
+          para que la página se sienta trabajada de verdad y no solo como un grid de productos.
+        </p>
+        <a href="./contacto.html" class="editorial-btn">Descubrir colección</a>
       </div>
-      <p>Una pieza elegante con aire mediterráneo y estilo limpio.</p>
-    </div>
-  </article>
 
-  <article class="product-card">
-    <div class="product-image-box">
-      <img
-        src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/c2f755d7ca728d92bd59d6eedc3a53a2bd24a100.jpg"
-        alt="Bañador asimétrico verde y blanco en la playa"
-        class="product-image"
-      >
-    </div>
-    <div class="product-info">
-      <h3>Summer Tide</h3>
-      <div class="product-price">
-        <span class="current-price">44,99€</span>
+      <div class="banadores-editorial-gallery">
+        <img
+          src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/43ba0a996e99d18de6adbc2181c708869b74b369.jpg"
+          alt="Editorial resort con bañador blanco"
+          class="gallery-main"
+        >
+        <img
+          src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/cf3a6b4c32f5807a2f632b25af70d75dd1ee8e76.jpg"
+          alt="Editorial en blanco y negro con bañadores"
+          class="gallery-side"
+        >
       </div>
-      <p>Diseño moderno con una imagen fresca y sofisticada.</p>
-    </div>
-  </article>
+    </section>
 
-  <article class="product-card">
-    <div class="product-image-box">
-      <img
-        src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/39780df97c90024faf8fbebbe077e0697aca2b40.jpg"
-        alt="Bañador negro de una pieza junto al mar"
-        class="product-image"
-      >
-    </div>
-    <div class="product-info">
-      <h3>Black Sunset</h3>
-      <div class="product-price">
-        <span class="current-price">54,99€</span>
-      </div>
-      <p>Una propuesta más sobria con toque editorial y premium.</p>
-    </div>
-  </article>
-
-  <article class="product-card">
-    <div class="product-image-box">
-      <img
-        src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/9839f52ab57fa85d839663f42a43bcff67a38962.jpg"
-        alt="Mujer en bañador sobre la arena con tabla"
-        class="product-image"
-      >
-    </div>
-    <div class="product-info">
-      <h3>Lagoon Surf</h3>
-      <div class="product-price">
-        <span class="current-price">59,99€</span>
-      </div>
-      <p>Inspiración surf con una composición muy coherente con la marca.</p>
-    </div>
-  </article>
-
-  <article class="product-card">
-    <div class="product-image-box">
-      <img
-        src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/6c411b47976483849a5908abcc0b4fb4aa6ea027.jpg"
-        alt="Dos mujeres con bañadores de una pieza"
-        class="product-image"
-      >
-    </div>
-    <div class="product-info">
-      <h3>Lagoon Duo</h3>
-      <div class="product-price">
-        <span class="current-price">52,99€</span>
-      </div>
-      <p>Una imagen más lifestyle para reforzar la estética de colección.</p>
-    </div>
-  </article>
-
-  <article class="product-card">
-    <div class="product-image-box">
-      <img
-        src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/7608d7be1a835baff7eb57e72d9727d5b1c54cdc.jpg"
-        alt="Moda de baño en la playa"
-        class="product-image"
-      >
-    </div>
-    <div class="product-info">
-      <h3>Beach Mood</h3>
-      <div class="product-price">
-        <span class="current-price">47,99€</span>
-      </div>
-      <p>Color, playa y una sensación mucho más viva en la categoría.</p>
-    </div>
-  </article>
-</section>
-
-    <section class="offers-section container">
+    <section class="offers-section container sea-offers">
       <div class="section-title">
         <h2>Ofertas en bañadores</h2>
-        <p>Modelos seleccionados con precio especial y una presentación visual más potente.</p>
+        <p>Una parte comercial clara, pero integrada en una página más visual y con más diseño.</p>
       </div>
 
       <div class="offers-grid">
@@ -184,17 +215,17 @@
           <span class="offer-badge">-20%</span>
           <div class="offer-image-box">
             <img
-              src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/c016a117818eb5f1b691bd4b69e913c60c29cd11.jpg"
-              alt="Bañador azul verdoso en oferta"
+              src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/bd8b62c48eba314a379f6e0c0da2c9b7a9869b4f.jpg"
+              alt="Bañador beige en oferta"
               class="offer-image"
             >
           </div>
           <div class="offer-info">
-            <h3>Blue Wrap</h3>
-            <p>Una pieza elegante y limpia para una colección más premium.</p>
+            <h3>Paloma Sand</h3>
+            <p>Línea natural con look limpio y sofisticado.</p>
             <div class="offer-prices">
-              <span class="old-price">49,99€</span>
-              <span class="new-price">39,99€</span>
+              <span class="old-price">62,99€</span>
+              <span class="new-price">49,99€</span>
             </div>
           </div>
         </article>
@@ -203,39 +234,53 @@
           <span class="offer-badge">-15%</span>
           <div class="offer-image-box">
             <img
-              src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/c2f755d7ca728d92bd59d6eedc3a53a2bd24a100.jpg"
-              alt="Bañador asimétrico en oferta"
-              class="offer-image"
-            >
-          </div>
-          <div class="offer-info">
-            <h3>Summer Tide</h3>
-            <p>Un modelo fresco con una línea moderna y visual potente.</p>
-            <div class="offer-prices">
-              <span class="old-price">44,99€</span>
-              <span class="new-price">37,99€</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="offer-card">
-          <span class="offer-badge">-30%</span>
-          <div class="offer-image-box">
-            <img
-              src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/39780df97c90024faf8fbebbe077e0697aca2b40.jpg"
+              src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/68a62625b5f56172742e0f04a76bd12a5799dc31.jpg"
               alt="Bañador negro en oferta"
               class="offer-image"
             >
           </div>
           <div class="offer-info">
-            <h3>Black Sunset</h3>
-            <p>Una pieza sobria con aire editorial y precio especial.</p>
+            <h3>Noir Escape</h3>
+            <p>Un modelo premium con mucha fuerza visual.</p>
             <div class="offer-prices">
-              <span class="old-price">39,99€</span>
-              <span class="new-price">27,99€</span>
+              <span class="old-price">69,99€</span>
+              <span class="new-price">59,99€</span>
             </div>
           </div>
         </article>
+
+        <article class="offer-card">
+          <span class="offer-badge">-25%</span>
+          <div class="offer-image-box">
+            <img
+              src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/f014d12444792b136db3236c444c37dfe08dfbd0.jpg"
+              alt="Bañador multicolor en oferta"
+              class="offer-image"
+            >
+          </div>
+          <div class="offer-info">
+            <h3>Resort Glow</h3>
+            <p>La parte más vibrante de la colección a un precio más atractivo.</p>
+            <div class="offer-prices">
+              <span class="old-price">69,99€</span>
+              <span class="new-price">52,99€</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="sea-banner container">
+      <div class="sea-banner-box">
+        <div>
+          <span class="page-kicker sea-kicker">Malamakai pick</span>
+          <h2>Tu verano empieza aquí</h2>
+          <p>
+            Una selección de bañadores con imagen más cuidada, tono más premium
+            y una estructura distinta para que la página tenga vida propia.
+          </p>
+        </div>
+        <a href="./sobrenosotros.html" class="sea-banner-link">Conocer la marca</a>
       </div>
     </section>
   </main>
@@ -249,15 +294,15 @@
 
       <div class="footer-links">
         <h4>Categorías</h4>
-        <a href="banadores.html">Bañadores</a>
-        <a href="#">Bikinis</a>
-        <a href="#">Neoprenos</a>
-        <a href="#">Licra</a>
+        <a href="./banadores.html">Bañadores</a>
+        <a href="./bikinis.html">Bikinis</a>
+        <a href="./neoprenos.html">Neoprenos</a>
+        <a href="./licra.html">Licra</a>
       </div>
 
       <div class="footer-links">
         <h4>Información</h4>
-        <a href="#">Contacto</a>
+        <a href="./contacto.html">Contacto</a>
         <a href="#">Envíos</a>
         <a href="#">Devoluciones</a>
         <a href="#">Aviso legal</a>
@@ -278,6 +323,6 @@
   </footer>
 
   <button class="scroll-top" id="scrollTop">↑</button>
-  <script src="assets/js/main.js"></script>
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
