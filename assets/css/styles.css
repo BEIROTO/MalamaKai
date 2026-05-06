@@ -1786,3 +1786,289 @@ img {
     padding: 22px;
   }
 }
+.licra-page {
+  padding-bottom: 60px;
+}
+
+.licra-kicker {
+  color: #4a8c96;
+}
+
+.licra-hero {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 30px;
+  align-items: center;
+  padding: 40px 0 24px;
+}
+
+.licra-hero-copy h1 {
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  line-height: 1.05;
+  margin-bottom: 14px;
+  color: #1f3c43;
+}
+
+.licra-hero-copy p {
+  max-width: 58ch;
+  color: #5f7880;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.licra-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.licra-tags span {
+  background: #edf8f8;
+  color: #4a8c96;
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.licra-hero-media img {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  border-radius: 22px;
+  display: block;
+}
+
+.licra-benefits {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr 1fr;
+  gap: 18px;
+  margin: 16px auto 42px;
+}
+
+.licra-benefit-card {
+  background: #ffffff;
+  border: 1px solid #e7eef0;
+  border-radius: 20px;
+  padding: 22px;
+}
+
+.licra-benefit-main {
+  background: linear-gradient(135deg, #dff4f4 0%, #edf8f8 100%);
+  border: 1px solid #d5ecec;
+}
+
+.benefit-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #4a8c96;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.licra-benefit-card h3 {
+  margin-bottom: 10px;
+  color: #1f3c43;
+}
+
+.licra-benefit-card p {
+  color: #61797f;
+  line-height: 1.75;
+}
+
+.licra-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.licra-card {
+  background: #fff;
+  border: 1px solid #e7eef0;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.licra-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.08);
+}
+
+.licra-card-wide {
+  grid-column: span 2;
+}
+
+.licra-image img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  display: block;
+}
+
+.licra-card-wide .licra-image img {
+  height: 430px;
+}
+
+.licra-info {
+  padding: 18px;
+}
+
+.licra-note {
+  color: #4a8c96;
+}
+
+.licra-info h3 {
+  margin-bottom: 8px;
+  color: #1f3c43;
+}
+
+.licra-info p {
+  color: #5f777d;
+  line-height: 1.7;
+}
+
+.licra-editorial {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 28px;
+  align-items: center;
+  margin: 10px auto 50px;
+  padding: 30px;
+  background: linear-gradient(135deg, #f2fbfb 0%, #f8f6f0 100%);
+  border-radius: 24px;
+}
+
+.licra-editorial-text h2 {
+  margin: 0 0 12px;
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  color: #1f3c43;
+}
+
+.licra-editorial-text p {
+  color: #607980;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.licra-btn {
+  background: #1f3c43;
+  color: white;
+}
+
+.licra-editorial-gallery {
+  display: grid;
+  grid-template-columns: 1.2fr 0.9fr;
+  gap: 14px;
+}
+
+.licra-editorial-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+.licra-editorial-gallery .gallery-main,
+.licra-editorial-gallery .gallery-side {
+  min-height: 460px;
+}
+
+.licra-offers {
+  margin-bottom: 70px;
+}
+
+.licra-offers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.licra-offer-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fcfc 100%);
+  border: 1px solid #e6eff1;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05);
+}
+
+.licra-offer-card .offer-badge {
+  background: #4a8c96;
+}
+
+.licra-offer-card .offer-image-box img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.licra-offer-card .offer-info {
+  padding: 20px;
+}
+
+.licra-offer-card .offer-info h3 {
+  color: #1f3c43;
+  margin-bottom: 10px;
+}
+
+.licra-offer-card .offer-info p {
+  color: #617980;
+  line-height: 1.7;
+}
+
+@media (max-width: 992px) {
+  .licra-hero,
+  .licra-benefits,
+  .licra-grid,
+  .licra-editorial,
+  .licra-offers-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .licra-card-wide {
+    grid-column: span 2;
+  }
+
+  .licra-editorial-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .licra-editorial-gallery .gallery-main,
+  .licra-editorial-gallery .gallery-side {
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  .licra-hero,
+  .licra-benefits,
+  .licra-grid,
+  .licra-editorial,
+  .licra-editorial-gallery,
+  .licra-offers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .licra-card-wide {
+    grid-column: span 1;
+  }
+
+  .licra-hero-media img,
+  .licra-image img,
+  .licra-card-wide .licra-image img,
+  .licra-editorial-gallery .gallery-main,
+  .licra-editorial-gallery .gallery-side,
+  .licra-offer-card .offer-image-box img {
+    height: auto;
+    min-height: auto;
+  }
+
+  .licra-editorial {
+    padding: 22px;
+  }
+}
